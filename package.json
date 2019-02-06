@@ -6,6 +6,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-scripts": "2.1.3",
+    "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.85.0"
   },
   "scripts": {
@@ -22,5 +23,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  }
 }

@@ -12,3 +12,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.contacts-header {
+  padding: 15px 0;
+}
+.ui.table.contacts-table {
+  margin-top: 0;
+}
+.search__wrap {
+  /*margin-top: 1rem;*/
+}
+.contacts-table__row:hover {
+  background-color: rgba(31, 255, 60, 0.11);
+}
+.contacts-table__row:hover i.icon.contacts-table__button {
+  opacity: .5;
+}
+i.icon.contacts-table__button {
+  opacity: .1;
+}
+i.icon.contacts-table__button:hover {
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+.ui.modal {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
